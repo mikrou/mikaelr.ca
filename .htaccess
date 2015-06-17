@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^mikaelr\.ca$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mikaelr\.ca$
+RewriteRule ^/?$ "http\:\/\/www\.mikaelr\.ca\/main\.html" [R=301,L]
+

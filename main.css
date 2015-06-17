@@ -1,0 +1,70 @@
+body {background-image: url(pics/Engineering-Photos-29.jpg);
+	  background-position:top center;
+	  }
+html body {font-family:Helvetica, Arial, sans-serif;}
+
+
+.capstone {background:white;
+			border: 2px solid gray;
+			margin: 0px 80px;
+			padding:20px;}
+
+.counter {
+	text-align: center;
+}
+
+h1 {background-color:blue;
+	border:10px solid black;
+	text-align:center;
+	margin: 20px 100px;}
+
+
+.images {text-align: center;
+		margin-top:0px;
+		margin-bottom:0px;
+		padding:20px;}
+
+#intro {background: white;
+		border: 2px solid gray;
+		margin: 0px 80px;
+		padding:20px;}
+
+#Menu {text-decoration: none;
+		text-align: center;}
+
+#Menu li {display:inline-table;
+			color:black;
+			font-size:20px;
+			font-style: bold;
+			padding: 10px 5px;
+			border:2px solid black;
+			border-radius: 10px;
+			background: gray;
+			width:180px;}
+#Menu li:hover {background-color: black;
+				color:white;
+			}
+
+.programs {background:white;
+			padding:20px;
+			text-align:center;
+			border: 2px solid black;}
+
+.quote {
+		background:white;
+		border: 2px solid gray;
+		margin: 0 80px;
+		text-align:center;
+		font-family:gothic, Serif;
+		font-size: 28px;
+}
+
+.taekwondo {background: white;
+		border: 2px solid gray;
+		margin: 0px 80px;
+		padding:20px;}
+
+.work {background:white;
+		border: 2px solid gray;
+		margin:0px 150px;
+		padding:10px;}

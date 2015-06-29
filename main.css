@@ -13,10 +13,40 @@ html body {font-family:Helvetica, Arial, sans-serif;}
 	text-align: center;
 }
 
-h1 {background-color:blue;
+.title{
+	text-align: center;
+	width: 100%;
+	display: block;
+
+}
+
+.header .title{
+	background-color:blue;
 	border:10px solid black;
 	text-align:center;
-	margin: 20px 100px;}
+	display: block;
+	vertical-align: middle;
+	height: 50px;
+	font-size: 32px;
+	width: 50%;
+	left: 25%;
+	position:relative;
+}
+#timebox {
+	position: absolute;
+	right: 240px;
+	height: 70px;
+	font-size: 30px;
+	display: table;
+	background: white;
+	border: 4px solid black;
+	width: 185px;
+	text-align: center;
+}
+.time {
+	display: table-cell;
+	vertical-align: middle;
+}
 
 
 .images {text-align: center;

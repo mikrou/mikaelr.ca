@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Taekwondo</title>
+	<title>Contact Me</title>
 	<link rel="stylesheet" href="main.css" />
 </head>
 
@@ -11,7 +11,7 @@
 	
 	<div id="Menu">
 	<ul>
-		<a href="http://mikaelr.ca/index"><li>Intro</li></a>
+		<a href="http://mikaelr.ca/main"><li>Intro</li></a>
 		<a href="http://mikaelr.ca/work"><li>Work Experience</li></a>
 		<a href="http://mikaelr.ca/programs"><li>Program Samples</li></a>
 		<a href="http://mikaelr.ca/capstone"><li>Capstone Project</li></a>
@@ -21,33 +21,10 @@
 		</ul>
 	</div>
 	<br>
-	<div class="images">
-	<img src="pics/belts.jpg"/>
-	<img src="pics/greenBelt.jpg"/>
-	</div>
-	<br>
-	<div class = "taekwondo">
-	<p>
-		<h3>Patterns learned:</h3>
-		<ul>
-			<li>Fundamental pattern</li>
-			<li>Kibon</li>
-			<li>Taegeuk #1-4</li></ul>
-	</p>
-	<p>
-		<h3>Board breaks performed:</h3> 
-		<ul>
-		<li>Elbow Strike</li>
-		<li>Punch</li>
-		<li>Front snap kick</li>
-		<li>Step side kick</li>
-		<li>Back kick</li>
-		<li>Knife-hand</li></ul>
-	</p>
-	<p> <h3>Last promotion: July 25, 2014</h3>
-		<h3>Belt achieved: Blue stripe</h3>
-		</p>
-		</div>
+	<div id="intro">
+	<p>You can reach me at: <a href="mailto:contact@mikaelr.ca">contact@mikaelr.ca</a></p>
+	<p>My other contact information would be on my resume, which has likely been provided to you. If you would like to give any feedback or suggestions for improvement, feel free to send me an email, and I will respond within 24 hours.</p>
+	 </div>
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
 var sc_project=10508190; 

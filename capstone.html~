@@ -2,8 +2,9 @@
 <html>
 
 <head>
-	<title>Taekwondo</title>
+	<title>Capstone Project</title>
 	<link rel="stylesheet" href="main.css" />
+	
 </head>
 
 <body>
@@ -11,7 +12,7 @@
 	
 	<div id="Menu">
 	<ul>
-		<a href="http://mikaelr.ca/index"><li>Intro</li></a>
+		<a href="http://mikaelr.ca/main"><li>Intro</li></a>
 		<a href="http://mikaelr.ca/work"><li>Work Experience</li></a>
 		<a href="http://mikaelr.ca/programs"><li>Program Samples</li></a>
 		<a href="http://mikaelr.ca/capstone"><li>Capstone Project</li></a>
@@ -21,33 +22,23 @@
 		</ul>
 	</div>
 	<br>
-	<div class="images">
-	<img src="pics/belts.jpg"/>
-	<img src="pics/greenBelt.jpg"/>
-	</div>
+	<p class="capstone">The Capstone project is a final project for all engineering graduates, meant to display the skills learned throughout our entire university studies. Each group decides their own project, and the only requirement is to use the supplied microcontroller. My partner and I decided to build an obstacle avoiding robot, which highlights our hardware knowledge (Mechanical and Electrical), along with the software experience required to program the navigation logic of the robot.
+	The rover presentation (.pdf) can be viewed <a href="G14_Final_Presentation.pdf">here</a></p>
 	<br>
-	<div class = "taekwondo">
-	<p>
-		<h3>Patterns learned:</h3>
-		<ul>
-			<li>Fundamental pattern</li>
-			<li>Kibon</li>
-			<li>Taegeuk #1-4</li></ul>
-	</p>
-	<p>
-		<h3>Board breaks performed:</h3> 
-		<ul>
-		<li>Elbow Strike</li>
-		<li>Punch</li>
-		<li>Front snap kick</li>
-		<li>Step side kick</li>
-		<li>Back kick</li>
-		<li>Knife-hand</li></ul>
-	</p>
-	<p> <h3>Last promotion: July 25, 2014</h3>
-		<h3>Belt achieved: Blue stripe</h3>
-		</p>
-		</div>
+	<table>
+		<tr>
+		<td style="padding-right:200px; padding-left: 80px;"><img src="pics/robot.jpg"/></td>
+		<td>
+		<!--video player supplied by open source software: video.js !-->
+		<p style="background:white; text-align:center;">Please be patient while the video loads</p>
+		<video width="320" height="240" controls autoplay>
+		 	 <source src="movie.ogg" type="video/ogg">
+ 			 <source src="Produce2.mp4" type="video/mp4">
+			  <object data="Produce2.mp4" width="320" height="240">
+ 		   <embed width="320" height="240" src="Produce2.mp4">
+		  </object>
+			</video>
+		</td>
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
 var sc_project=10508190; 

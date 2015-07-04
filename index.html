@@ -4,14 +4,19 @@
 <head>
 	<title>Mikael Rouhiainen</title>
 	<link rel="stylesheet" href="main.css" />
-	<script src="jquery-2.1.4.min.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
         <meta charset="ISO-8859-1" /> 
-	<script src= "time.js"></script>
+	<script src= "js/time.js"></script>
+	<script src= "js/jquery.simpleWeather.min.js"></script>
+	<script src="js/displayWeather.js"></script>
 </head>
 
 <body onload="startTime()">
 <div class='header'>
-	<div class="weather"></div>
+	<div class="weather">
+		<div class="data"></div>
+		<button onclick="getLocation()">Show weather for your location</button>
+	</div>
 	<div class='title'>Mikael Roy Rouhiainen EIT </div>
 	<div id="timebox"></div>
 </div>

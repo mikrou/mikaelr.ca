@@ -17,8 +17,26 @@ html body {font-family:Helvetica, Arial, sans-serif;}
 	display: inline-block;
 	text-align: center;
 	width: 30%;
+	height: 64px;
+	font-size: 32px;
+	position: relative;
 }
-
+.weather .data {
+	display:inline-block;
+	height: 70%;
+}
+.weather .data .temp {
+	display:inline-block;
+	margin: 0;
+}
+.weather .data .city {
+    display:block;
+    margin:0 auto;
+}
+.weather button {
+	display:block;
+	margin: 0 auto;
+}
 .header .title{
 	background-color:blue;
 	border:10px solid black;
@@ -40,6 +58,7 @@ html body {font-family:Helvetica, Arial, sans-serif;}
 	width: 24%;
 	text-align: center;
 	margin-left: 50px;
+	vertical-align:top;
 }
 .time {
 	display: block;

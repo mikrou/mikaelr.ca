@@ -10,7 +10,6 @@ function getLocation() {
     }
 }
 function passPosition(position){
-    console.log('got here');
 showData(position.coords.latitude+','+position.coords.longitude);
 }
 

@@ -62,6 +62,5 @@ if (seconds < 10){
 }
 
 function update() {
-    console.log('update..');
     startTime();
 }

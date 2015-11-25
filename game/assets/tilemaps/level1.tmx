@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="5" height="36" tilewidth="70" tileheight="70" nextobjectid="37">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
+  <image source="../images/tiles_spritesheet.png" trans="ffffff" width="790" height="934"/>
+ </tileset>
+ <tileset firstgid="144" name="cannon" tilewidth="58" tileheight="70">
+  <image source="../images/cannon.png" trans="ffffff" width="58" height="70"/>
+ </tileset>
+ <tileset firstgid="145" name="cannonball" tilewidth="22" tileheight="20">
+  <image source="../images/cannonball.png" trans="ffffff" width="22" height="20"/>
+ </tileset>
+ <tileset firstgid="146" name="stand" tilewidth="70" tileheight="55">
+  <image source="../images/CannonStand-t.png" trans="ffffff" width="70" height="55"/>
+ </tileset>
+ <layer name="background" width="5" height="36">
+  <data encoding="csv">
+95,95,95,95,95,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41
+</data>
+ </layer>
+ <layer name="blocked layer" width="5" height="36">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,64,42,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+64,42,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,64,42,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,64,42,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,64,42,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,64,42,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,64,42,
+0,0,0,0,0,
+0,0,0,0,0,
+64,42,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+96,96,96,96,96
+</data>
+ </layer>
+ <objectgroup name="cannon">
+  <object id="1" name="cannon" type="cannon" gid="144" x="39" y="2176"/>
+  <object id="2" name="cannon" type="cannon" gid="144" x="252" y="1965"/>
+  <object id="3" name="cannon" type="cannon" gid="144" x="108" y="1689"/>
+  <object id="4" name="cannon" type="cannon" gid="144" x="252" y="1408"/>
+  <object id="5" name="cannon" type="cannon" gid="144" x="250" y="1128"/>
+  <object id="6" name="cannon" type="cannon" gid="144" x="179" y="918"/>
+  <object id="7" name="cannon" type="cannon" gid="144" x="36" y="638"/>
+  <object id="8" name="cannon" type="cannon" gid="144" x="248" y="289"/>
+ </objectgroup>
+ <objectgroup name="stand">
+  <object id="29" name="stand" type="stand" gid="146" x="39" y="2186"/>
+  <object id="30" name="stand" type="stand" gid="146" x="251" y="1977"/>
+  <object id="31" name="stand" type="stand" gid="146" x="108" y="1698"/>
+  <object id="32" name="stand" type="stand" gid="146" x="253" y="1420"/>
+  <object id="33" name="stand" type="stand" gid="146" x="250" y="1138"/>
+  <object id="34" name="stand" type="stand" gid="146" x="178" y="927"/>
+  <object id="35" name="stand" type="stand" gid="146" x="36" y="648"/>
+  <object id="36" name="stand" type="stand" gid="146" x="247" y="297"/>
+ </objectgroup>
+ <objectgroup name="Cannonball">
+  <object id="20" gid="145" x="152" y="2409" visible="0"/>
+  <object id="21" gid="145" x="55" y="2134" visible="0"/>
+  <object id="22" gid="145" x="270" y="1928" visible="0"/>
+  <object id="23" gid="145" x="125" y="1650" visible="0"/>
+  <object id="24" gid="145" x="271" y="1376" visible="0"/>
+  <object id="25" gid="145" x="266" y="1093" visible="0"/>
+  <object id="26" gid="145" x="196" y="876" visible="0"/>
+  <object id="27" gid="145" x="53" y="600" visible="0"/>
+  <object id="28" gid="145" x="263" y="249" visible="0"/>
+ </objectgroup>
+</map>

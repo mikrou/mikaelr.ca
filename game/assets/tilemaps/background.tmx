@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="5" height="9" tilewidth="70" tileheight="70" nextobjectid="19">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
+  <image source="../../../phaser-sidescroller/assets/images/tiles_spritesheet.png" width="790" height="934"/>
+ </tileset>
+ <tileset firstgid="144" name="cannon" tilewidth="170" tileheight="100">
+  <image source="cannon.jpg" trans="ff00ff" width="170" height="100"/>
+ </tileset>
+ <layer name="background" width="5" height="9">
+  <data encoding="csv">
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41
+</data>
+ </layer>
+ <layer name="BlockedLayer" width="5" height="9">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+96,96,96,96,96
+</data>
+ </layer>
+ <objectgroup name="Cannon">
+  <object id="5" name="cannon" type="cannon" gid="144" x="97" y="560"/>
+  <object id="11" x="111" y="534">
+   <polyline points="0,0 -12,17"/>
+  </object>
+  <object id="12" x="97" y="552">
+   <polyline points="0,0 8,0 20,-11 20,-18 13,-20 12,-35 16,-36 26,-50 31,-56 34,-54 86,-68 91,-74 99,-73 105,-78 108,-76 130,-88 135,-83 155,-92 161,-85 172,-92 157,-78 160,-77 152,-63 138,-61 135,-56 117,-52 113,-43 99,-42 90,-39 70,-24 69,-9 68,-5 67,-1 53,7 33,8 -1,9 2,1 3,1 2,-2"/>
+  </object>
+ </objectgroup>
+</map>

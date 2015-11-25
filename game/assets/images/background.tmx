@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="5" height="9" tilewidth="70" tileheight="70" nextobjectid="40">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
+  <image source="../../../phaser-sidescroller/assets/images/tiles_spritesheet.png" width="790" height="934"/>
+ </tileset>
+ <tileset firstgid="144" name="CannonStand" tilewidth="55" tileheight="70">
+  <image source="CannonStand.png" trans="ffffff" width="55" height="70"/>
+ </tileset>
+ <tileset firstgid="145" name="title" tilewidth="355" tileheight="50">
+  <image source="title.png" trans="ffffff" width="355" height="50"/>
+ </tileset>
+ <tileset firstgid="146" name="cannon" tilewidth="58" tileheight="70">
+  <image source="cannon.png" trans="ffffff" width="58" height="70"/>
+ </tileset>
+ <layer name="background" width="5" height="9">
+  <data encoding="csv">
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41,
+41,41,41,41,41
+</data>
+ </layer>
+ <layer name="BlockedLayer" width="5" height="9">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+96,96,96,96,96
+</data>
+ </layer>
+ <objectgroup name="cannon">
+  <object id="39" gid="146" x="144.333" y="567"/>
+ </objectgroup>
+ <objectgroup name="Stand">
+  <object id="37" gid="144" x="143.759" y="521.969" rotation="92.5514"/>
+ </objectgroup>
+ <layer name="title" width="5" height="9">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+145,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+</map>

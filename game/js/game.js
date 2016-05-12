@@ -63,6 +63,9 @@ SideScroller.Game.prototype = {
      if(this.cursors.up.isDown || this.pressingDown){
          this.startLaunch();
      }
+     if(this.game.input.mousePointer.holdSent){
+         this.startLaunch();
+     }
      if(!this.cursors.up.isDown && !this.pressingDown){
          this.cannon.angle += (1*this.angleFactor);
          if(this.cannon.angle >= 50 || this.cannon.angle <= -50){

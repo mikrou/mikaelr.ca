@@ -20,6 +20,7 @@ html body {font-family:Helvetica, Arial, sans-serif;}
 	height: 64px;
 	font-size: 32px;
 	position: relative;
+	color: white;
 }
 .weather .data {
 	display:inline-block;

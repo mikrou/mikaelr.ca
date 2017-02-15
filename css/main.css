@@ -122,3 +122,6 @@ html body {font-family:Helvetica, Arial, sans-serif;}
 .statcounter {
     margin: 0 auto;
 }
+.compExp {
+    vertical-align: top;
+}
